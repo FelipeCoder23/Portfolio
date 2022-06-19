@@ -5,7 +5,9 @@ This project consisted of looking for a trend of abandonment of clients of a ban
 There are 3 different codes which differ in the following:
 
 Code 1: No data processing is performed
+
 code 2: data processing is performed only for training data.
+
 code 3: training and test data are cleaned.
 
 enjoy it and any comments to my mail.
