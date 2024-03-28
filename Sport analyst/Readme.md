@@ -20,5 +20,6 @@ Your feedback is highly valued as it fuels the ongoing improvement of my work. S
 
 Embark on this analytical journey through the lens of data and may it inspire your passion for sports and analytics alike.
 
-Warm regards,
-Felipe
+## Further Information
+For more information or inquiries, feel free to contact me through [my GitHub profile](https://github.com/FelipeCoder23).
+
