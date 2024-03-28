@@ -1,0 +1,14 @@
+train: /home/felipe-alvarez/code/YOLOv8_Segmentation_DeepSORT_Object_Tracking/ultralytics/yolo/v8/segment/train/images
+val: /home/felipe-alvarez/code/YOLOv8_Segmentation_DeepSORT_Object_Tracking/ultralytics/yolo/v8/segment/valid/images
+test: /home/felipe-alvarez/code/YOLOv8_Segmentation_DeepSORT_Object_Tracking/ultralytics/yolo/v8/segment/test/images
+
+
+nc: 2
+names: ['arbitro', 'gol']
+
+roboflow:
+  workspace: tests-umzus
+  project: arbitro
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tests-umzus/arbitro/dataset/1
