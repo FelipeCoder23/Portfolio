@@ -27,5 +27,5 @@ Your thoughts and feedback are invaluable. Should you have any comments or wish 
 
 Enjoy exploring the project, and I look forward to your input!
 
-Best regards,
-Felipe
+## Further Information
+For more information or inquiries, feel free to contact me through [my GitHub profile](https://github.com/FelipeCoder23).
