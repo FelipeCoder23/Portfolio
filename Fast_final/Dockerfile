@@ -2,16 +2,14 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Instalar git en la imagen Docker. Necesitarás también instalar los paquetes necesarios para que pip pueda compilar cualquier dependencia que lo requiera.
 RUN apt-get update && \
-    apt-get install -y git && \
+    apt-get install -y libgl1-mesa-glx && \
     rm -rf /var/lib/apt/lists/*
 
-COPY ./requirements.txt /app/requirements.txt
+COPY requirements.txt .
 
-# Instalar las dependencias de Python usando pip
-RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /app
+COPY . .
 
 CMD ["uvicorn", "api.api:app", "--host", "0.0.0.0", "--port", "80"]
