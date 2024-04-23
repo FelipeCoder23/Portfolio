@@ -1,7 +1,10 @@
 import subprocess
 import cv2
 import os
+
 #os.chdir("../yolov8/ultralytics/yolo/v8/segment/")
+# Dentro de api.py
+
 
 def run_yolov5_detection(source):
     script_path = os.path.abspath(os.path.join(

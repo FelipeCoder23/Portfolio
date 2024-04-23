@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 import subprocess
 import shutil
-from predict import run_yolov5_detection
+from .predict import run_yolov5_detection
 
 
 app = FastAPI()
@@ -25,4 +25,3 @@ async def predict(file: UploadFile = File(...)):
         tiempos = [line.strip() for line in f.readlines()]
 
     return {'prediction': tiempos}
-    
